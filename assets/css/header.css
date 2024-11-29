@@ -1,0 +1,114 @@
+
+
+h2, h1{
+    font-family: "Raleway" !important;
+    font-weight: 900 !important;
+}
+
+*{
+    transition: all .3s ease;
+    transition-delay: 0s;
+}
+body{
+    font-family: "Kanit" !important;
+    background-image: url("../images/noisy_background.png");
+    background-size: cover;
+    z-index: 9999;
+}
+
+
+.header-bg{
+   background-image: url('../images/headerBg.png');
+   background-repeat: no-repeat;
+}
+
+.rounded-2-5xl{
+    border-radius: 1.25rem;
+}
+
+.neg-margin-4{
+    margin-right: -4px;
+}
+
+.group:hover .neg-margin-4{
+    margin-right: -15px;
+}
+
+.heart{
+    transform: rotate(41deg);
+}
+
+
+.group:hover .bg-white img, .group:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(36deg) brightness(104%) contrast(102%);
+}
+.bg-slate-900:hover img{
+    filter: brightness(0);
+}
+
+.bg-gray-transp{
+    background: rgb(217, 217, 217, 0.6);
+}
+
+.cannot_use{
+    border-color: rgb(209, 213, 219, 0.5) !important;
+    pointer-events: none;
+}
+.cannot_use img{
+    filter: brightness(0) saturate(100%) invert(73%) sepia(7%) saturate(320%) hue-rotate(177deg) brightness(97%) contrast(89%);
+}
+
+.\-top-3-5{
+    top: -3.5rem;
+}
+
+.\-bottom-3-5{
+    bottom: -3.5rem;
+}
+
+.absolute-center-bot{
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.selected{
+    transform: scale(1.1);
+    color: black !important;
+}
+
+
+
+
+
+
+.octahedron {
+    width: 0;
+    height: 0;
+    border-right: 15px solid rgba(0,0,0, .9);
+    border-left: 8px solid rgba(0,0,0, .4);
+    border-bottom: 6.5px solid rgba(0,0,0, .6);
+    border-top: 17px solid rgba(0,0,0, .65);
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transform: rotate(45deg);
+    -moz-transition: all 1s ease-in-out;
+    -ms-transform: rotate(45deg);
+    -ms-transition: all 1s ease-in-out;
+    transform: rotate(45deg);
+    transition: all 1s ease-in-out;
+}
+
+.box {
+    height: 20px;
+    margin: 10px;
+    padding: 0px;
+}
+    
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
